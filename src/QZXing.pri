@@ -5,6 +5,7 @@ CONFIG += enable_decoder_1d_barcodes \
           enable_decoder_data_matrix \
           enable_decoder_aztec \
           enable_decoder_pdf17 \
-          enable_encoder_qr_code
+          enable_encoder_qr_code \
+          qzxing_multimedia
 
 include(./QZXing-components.pri)
